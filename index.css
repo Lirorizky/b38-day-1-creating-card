@@ -1,6 +1,8 @@
     body {
         font-family: 'Poppins', sans-serif;
     }
+
+    /*-- base styles --*/
     div.base-card {
         margin: auto;
         margin-top: 100px;
@@ -16,6 +18,11 @@
         width: 50%;
         margin: auto;
     }
+
+    /*-- base styles end --*/
+
+    /*-- header and bio --*/
+
     h1 {
         text-align: left;
     }
@@ -26,6 +33,11 @@
         color: black; 
         font-weight: 500;
     }
+
+    /* -- header and bio end -- */
+
+    /* -- contact, cv, image --  */
+
     div.contact-container:hover {
         transform: scale(1.01);
     }
@@ -104,15 +116,13 @@
     a {
         text-decoration: none;
     }
-    a img {
+    .social-icons {
         width: 30px;
     }
     .social-icons:hover {
         transform: scale(1.03);
     }
-    .contact:hover {
-        transform: scale(1.03);
-    }
-    .cv:hover {
-        transform: scale(1.015);
-    }
+
+    /* -- contact, cv, image end --  */
+
+    /* Day-1 end */
