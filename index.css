@@ -26,6 +26,9 @@
         color: black; 
         font-weight: 500;
     }
+    div.contact-container:hover {
+        transform: scale(1.01);
+    }
     a.contact-anchor {
         width: 120px;
         border-radius: 50px;
@@ -43,6 +46,9 @@
         padding-left: 27px;
         padding-top: 7px;
         font-size: 17px;
+    }
+    div.cv-container:hover {
+        transform: scale(1.01);
     }
     a.cv-anchor {
         font-weight: 500;
