@@ -32,6 +32,12 @@
             .social-icon:hover {
                 transform: scale(1.03);
             }
+            .contact:hover {
+                transform: scale(1.03);
+            }
+            .cv:hover {
+                transform: scale(1.015);
+            }
         </style>
         
         
@@ -60,23 +66,8 @@
                     </p>
                 </div>
 
-                    <!-- <div style="
-                        border-radius: 50px; 
-                        background-color: black;
-                        width: 120px;
-                        height: 35px;
-                        padding: 0 3px 3px 3px;
-                    ">
-                        <p style="
-                            color: white; 
-                            text-align: center;
-                        ">
-                            contact                        
-                        </p>
-                    </div> -->
-
                 <div>
-                    <button type="button" style="
+                    <a type="button" style="
                         width: 120px;
                         border-radius: 50px;
                         border: 0;
@@ -87,25 +78,33 @@
                         margin-top: 10px;
                         display: block;
                         cursor: pointer;
-                    ">
-                        contact
-                    </button>
-
-                    <button type="button" style="
+                    " class="contact" href="#">
+                        <p style="
+                            /* margin: auto; */
+                            padding-left: 27px;
+                            padding-top: 7px;
+                            font-size: 17px;
+                        ">
+                            contact
+                        </p>
+                    </a>
+                </div>
+                <div class="cv">
+                    <a type="button" style="
                         font-weight: 500;
                         margin-top: 5px;
                         border: 0;
                         background-color: inherit;
                         font-size: medium;
                         cursor: pointer;
-                    ">
-                        download CV
+                    " href="#">
+                        <p style="display:inline-block">download CV</p>
                         <img src="./assets/icons/download.png" alt="" style="
                         width: 25px;
                         height: 20px;
                         margin-left: 3px;
                         ">
-                    </button>
+                    </a>
                 </div>
                     
                 <div style="
@@ -145,7 +144,7 @@
                         margin-top: 0px;
                         font-size: smaller;
                     ">
-                        Professional Horserider
+                        Professional Horse Rider
                     </p>
                 </div>
             </div>
