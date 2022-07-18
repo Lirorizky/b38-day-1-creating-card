@@ -83,7 +83,7 @@
         padding-bottom: 5px;
     }
     div.image-container img {
-        width: 100%; 
+        width: 99%; 
         height: 300px; 
         border-radius: 5px;
         border: 1px solid #00000033;
@@ -97,12 +97,6 @@
     div.image-container p {
         margin-top: 0px;
         font-size: smaller;
-    }
-    button:hover {
-        transform: scale(1.03);
-    }
-    button {
-        font-family: 'Poppins', sans-serif;
     }
     .social-anchor {
         padding: 10px;
